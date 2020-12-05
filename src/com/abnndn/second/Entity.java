@@ -1,4 +1,4 @@
-package com.abnndn.second.entities;
+package com.abnndn.second;
 
 import lombok.Builder;
 import lombok.Getter;

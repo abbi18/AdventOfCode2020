@@ -14,5 +14,9 @@ public class Main {
         // Third Day
         com.abnndn.third.First.calculateAnswer();
         com.abnndn.third.Second.calculateAnswer();
+
+        // Fourth Day
+        com.abnndn.fourth.First.calculateAnswer();
+        com.abnndn.fourth.Second.calculateAnswer();
     }
 }
