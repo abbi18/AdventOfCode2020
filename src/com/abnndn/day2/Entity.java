@@ -1,4 +1,4 @@
-package com.abnndn.second;
+package com.abnndn.day2;
 
 import lombok.Builder;
 import lombok.Getter;

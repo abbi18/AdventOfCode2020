@@ -4,31 +4,31 @@ public class Main {
 
     public static void main(String[] args) {
         // Seventh Day
-        new com.abnndn.seventh.First().calculateAnswer();
-        new com.abnndn.seventh.Second().calculateAnswer();
+        new com.abnndn.day7.First().calculateAnswer();
+        new com.abnndn.day7.Second().calculateAnswer();
 
         // Sixth Day
-        com.abnndn.sixth.First.calculateAnswer();
-        com.abnndn.sixth.Second.calculateAnswer();
+        com.abnndn.day6.First.calculateAnswer();
+        com.abnndn.day6.Second.calculateAnswer();
 
         // Fifth Day
-        com.abnndn.fifth.First.calculateAnswer();
-        com.abnndn.fifth.Second.calculateAnswer();
+        com.abnndn.day5.First.calculateAnswer();
+        com.abnndn.day5.Second.calculateAnswer();
 
         // Fourth Day
-        com.abnndn.fourth.First.calculateAnswer();
-        com.abnndn.fourth.Second.calculateAnswer();
+        com.abnndn.day4.First.calculateAnswer();
+        com.abnndn.day4.Second.calculateAnswer();
 
         // Third Day
-        com.abnndn.third.First.calculateAnswer();
-        com.abnndn.third.Second.calculateAnswer();
+        com.abnndn.day3.First.calculateAnswer();
+        com.abnndn.day3.Second.calculateAnswer();
 
         // Second Day
-        com.abnndn.second.First.calculateAnswer();
-        com.abnndn.second.Second.calculateAnswer();
+        com.abnndn.day2.First.calculateAnswer();
+        com.abnndn.day2.Second.calculateAnswer();
 
         // First Day
-        com.abnndn.first.First.calculateAnswer();
-        com.abnndn.first.Second.calculateAnswer();
+        com.abnndn.day1.First.calculateAnswer();
+        com.abnndn.day1.Second.calculateAnswer();
     }
 }

@@ -1,4 +1,4 @@
-package com.abnndn.first;
+package com.abnndn.day1;
 
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors

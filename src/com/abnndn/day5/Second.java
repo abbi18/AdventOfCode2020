@@ -1,4 +1,4 @@
-package com.abnndn.fifth;
+package com.abnndn.day5;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -7,17 +7,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class First {
+public class Second {
 
     public static void calculateAnswer() {
         try {
             File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/fifth/input.txt");
             Scanner myReader = new Scanner(myObj);
             int ans = Integer.MIN_VALUE;
-            List<String> input = new ArrayList<>();
+            List<Integer> input = new ArrayList<>();
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
-                input.add(data);
 
                 int minRow = 0; int maxRow = 127;
 
@@ -47,12 +46,18 @@ public class First {
                     System.out.println("this is wrong in columns");
                     throw new RuntimeException();
                 }
-                System.out.println(minRow + " " + minCol);
-                System.out.println(minRow*8 + minCol);
-                ans = Math.max(ans, minRow*8 + minCol);
+
+                input.add(minRow*8 + minCol);
+
             }
-            System.out.println();
-            System.out.println(ans);
+            Collections.sort(input);
+
+            for (int i=0;i<input.size()-1;i++) {
+                if (input.get(i+1) -input.get(i) == 2) {
+                    System.out.println(input.get(i) + 1);
+                    break;
+                }
+            }
             myReader.close();
         } catch (
                 FileNotFoundException e) {

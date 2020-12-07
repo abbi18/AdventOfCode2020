@@ -1,4 +1,4 @@
-package com.abnndn.sixth;
+package com.abnndn.day6;
 
 import java.io.File;
 import java.io.FileNotFoundException;
