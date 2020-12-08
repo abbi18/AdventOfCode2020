@@ -37,7 +37,7 @@ public class Second {
                 graph.add(new ArrayList<>());
             }
 
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/seventh/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day7/input.txt");
             Scanner myReader = new Scanner(myObj);
 
             while (myReader.hasNextLine()) {

@@ -11,7 +11,7 @@ public class First {
     public static void calculateAnswer() {
 
         try {
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/fourth/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day4/input.txt");
             Scanner myReader = new Scanner(myObj);
             int start=1;
             int ans=0;

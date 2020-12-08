@@ -12,7 +12,7 @@ public class Second {
         List<Entity> input = new ArrayList<>();
 
         try {
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/second/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day2/input.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

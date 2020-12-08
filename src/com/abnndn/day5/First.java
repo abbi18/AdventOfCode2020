@@ -10,7 +10,7 @@ public class First {
 
     public static void calculateAnswer() {
         try {
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/fifth/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day5/input.txt");
             Scanner myReader = new Scanner(myObj);
             int ans = Integer.MIN_VALUE;
             List<String> input = new ArrayList<>();

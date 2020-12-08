@@ -11,7 +11,7 @@ public class First {
     public static void calculateAnswer() {
         List<String> input = new ArrayList<>();
         try {
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/sixth/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day6/input.txt");
             Scanner myReader = new Scanner(myObj);
             int ans = 0;
             while (myReader.hasNextLine()) {

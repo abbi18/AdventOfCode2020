@@ -112,7 +112,7 @@ public class Second {
     public static void calculateAnswer() {
 
         try {
-            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/fourth/input.txt");
+            File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/day4/input.txt");
             Scanner myReader = new Scanner(myObj);
             int ans=0;
             while (myReader.hasNextLine()) {

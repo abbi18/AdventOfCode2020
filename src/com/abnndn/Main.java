@@ -3,6 +3,10 @@ package com.abnndn;
 public class Main {
 
     public static void main(String[] args) {
+        // Eighth Day
+        new com.abnndn.day8.First().calculateAnswer();
+        new com.abnndn.day8.Second().calculateAnswer();
+
         // Seventh Day
         new com.abnndn.day7.First().calculateAnswer();
         new com.abnndn.day7.Second().calculateAnswer();
