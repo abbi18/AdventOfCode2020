@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Second {
-    public static void calculateAnswer() {
+    public void calculateAnswer() {
         List<Integer> input = new ArrayList<>();
         try {
             File myObj = new File("/Users/abhmitta/Desktop/AdventOfCode2020/src/com/abnndn/<day>/input.txt");
